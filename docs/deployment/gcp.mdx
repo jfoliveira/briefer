@@ -82,7 +82,7 @@ After installing Docker, you can run Briefer using the following command:
 
 ```bash
 docker run -d \
-  -p 3000:3000
+  -p 3000:3000 \
   -v briefer_psql_data:/var/lib/postgresql/data \
   -v briefer_jupyter_data:/home/jupyteruser \
   -v briefer_briefer_data:/home/briefer \
